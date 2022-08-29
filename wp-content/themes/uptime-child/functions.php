@@ -17,12 +17,29 @@
  * @link https://codex.wordpress.org/Child_Themes
  */
 function uptime_child_enqueue_styles() {
-    wp_enqueue_style( 'uptime-style' , get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'uptime-child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( 'uptime-style' ),
-        wp_get_theme()->get('Version')
-    );
+	wp_enqueue_style( 'uptime-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style(
+		'uptime-child-style',
+		get_stylesheet_directory_uri() . '/style.css',
+		array( 'uptime-style' ),
+		wp_get_theme()->get( 'Version' )
+	);
 }
 
-add_action(  'wp_enqueue_scripts', 'uptime_child_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'uptime_child_enqueue_styles' );
+
+
+$file_includes = array(
+	'includes/scripts.php',             // Enqueue theme styles and scripts
+);
+
+/**
+ * Checks if any file have error while including it.
+ */
+foreach ( $file_includes as $file ) {
+	if ( ! $filepath = locate_template( $file ) ) {
+		trigger_error( sprintf( __( 'Error locating %s for inclusion', 'uptime_td' ), $file ), E_USER_ERROR );
+	}
+	require_once $filepath;
+}
+unset( $file, $filepath );

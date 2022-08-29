@@ -1,0 +1,336 @@
+/*!
+Theme Name: BaseTheme Package
+Theme URI: http://uptimedesign.com
+Author: Team uptime
+Author URI: http://uptimedesign.com/team
+Description: WordPress theme by uptime Design
+Version: 1.0
+*/
+/* ------------------------------------------------------------------
+>>>                      TABLE OF CONTENTS:                      <<<
+--------------------------------------------------------------------
+> Variables
+	>> Colors
+	>> Columns
+> Mixins
+> Fonts
+> Defaults
+	>> Normalize
+	>> Forms Defaults
+	>> Clearings
+> Typography
+	>> Headings
+	>> Copy
+> Elements
+	>> Lists
+	>> Quotes
+	>> Tables
+	>> Images
+	>> Links
+> Forms
+	>> Buttons
+	>> Fields
+	>> Form Elements
+> Media
+	>> Captions
+	>> Galleries
+> WordPress Core
+	>> Accessibility
+	>> Alignments
+	>> Posts & Pages
+	>> Pagination
+	>> Comments
+	>> Widgets
+> Site
+	>> Layout
+		>>> Header
+		>>> Footer
+	>> Theme
+	>> Blog
+	>> Single
+	>> Home Page
+	>> About Us
+	>> Contact Us
+	>> Burgers Landing
+	>> Single Burger
+	>> Blocks
+> Responsive
+	>> Regular Queries
+	>> Extra Queries
+> Import Fonts
+> Vendors
+	> Owl Carousel
+	> Slick Nav
+------------------------------------------------------------------ */
+/* ------------------------------------------------------------------
+> Mixins
+------------------------------------------------------------------ */
+/*
+Rem output with px fallback
+*/
+/*
+Rem output with px fallback with !important
+*/
+/*
+Column width with margin
+*/
+/*
+Mixin for transition
+*/
+/* ------------------------------------------------------------------
+> Fonts
+------------------------------------------------------------------ */
+/* ------------------------------------------------------------------
+> Typography
+------------------------------------------------------------------ */
+/*-------------------------------------------------
+>> Styles for headings
+-------------------------------------------------*/
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+body {
+  font-family: poppins, arial, sans-serif !important;
+}
+
+/*-------------------------------------------------
+>> Styles for headings
+-------------------------------------------------*/
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+h1,
+.heading-1,
+h2,
+.heading-2,
+h3,
+.heading-3,
+h4,
+.heading-4 {
+  font-family: "poppins", arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h1,
+.heading-1,
+h2,
+.heading-2,
+h3,
+.heading-3,
+h4,
+.heading-4,
+h5,
+.heading-5,
+h6,
+.heading-6,
+.med-heading {
+  margin: 0 0 20px;
+  line-height: 1.1;
+}
+h1 a,
+.heading-1 a,
+h2 a,
+.heading-2 a,
+h3 a,
+.heading-3 a,
+h4 a,
+.heading-4 a,
+h5 a,
+.heading-5 a,
+h6 a,
+.heading-6 a,
+.med-heading a {
+  border-bottom: none;
+}
+
+h1,
+.heading-1 {
+  font-size: 54px;
+  line-height: 1.25;
+}
+
+h2,
+.heading-2 {
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+h3,
+.heading-3 {
+  font-size: 34px;
+  line-height: 1.25;
+}
+
+h4,
+.heading-4 {
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+h5,
+.heading-5 {
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+h6,
+.heading-6 {
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.med-heading {
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+/*-------------------------------------------------
+>> Styles for content tags
+-------------------------------------------------*/
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+i,
+em,
+var,
+address,
+dfn {
+  font-style: italic;
+}
+
+code,
+pre,
+kbd,
+tt,
+var,
+samp {
+  font-family: monospace;
+}
+
+abbr,
+acronym {
+  text-decoration: none;
+  cursor: help;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+address {
+  margin: 0 0 30px;
+}
+
+mark {
+  padding: 3px 7px;
+}
+
+small {
+  font-size: 80%;
+}
+
+big {
+  font-size: 125%;
+}
+
+s,
+strike,
+del {
+  text-decoration: line-through;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+u {
+  text-decoration: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+sub,
+sup {
+  font-size: 70%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -4px;
+}
+
+sup {
+  top: -8px;
+}
+
+code,
+pre,
+kbd,
+tt {
+  max-width: 100%;
+  overflow: auto;
+  margin: 0 0 30px;
+}
+
+code,
+kbd,
+tt {
+  padding: 3px 7px;
+}
+
+pre {
+  padding: 20px 25px;
+  overflow-x: scroll;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+audio,
+video {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------
+> Site
+------------------------------------------------------------------ */
+/*-------------------------------------------------
+>> Basic styles for theme
+-------------------------------------------------*/
+.navbar-brand img {
+  height: 124px;
+}
+
+[data-id=bc148ca] {
+  padding: 0 0 !important;
+}
+
+/* ------------------------------------------------------------------
+> Import Fonts
+------------------------------------------------------------------ */
+@font-face {
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+}
+/*# sourceMappingURL=bundle.css.map */
+
+/*# sourceMappingURL=bundle.min.css.map */

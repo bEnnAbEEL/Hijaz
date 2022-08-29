@@ -1,0 +1,118 @@
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+
+i,
+em,
+var,
+address,
+dfn {
+	font-style: italic;
+}
+
+code,
+pre,
+kbd,
+tt,
+var,
+samp {
+	font-family: monospace;
+}
+
+abbr,
+acronym {
+	text-decoration: none;
+	cursor: help;
+}
+
+abbr[title] {
+	text-decoration: none;
+}
+
+address {
+	margin: 0 0 30px;
+}
+
+mark {
+	padding: 3px 7px;
+}
+
+small {
+	font-size: 80%;
+}
+
+big {
+	font-size: 125%;
+}
+
+s,
+strike,
+del {
+	text-decoration: line-through;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+u {
+	text-decoration: none;
+}
+
+del {
+}
+
+ins {
+	text-decoration: none;
+}
+
+sub,
+sup {
+	font-size: 70%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -4px;
+}
+
+sup {
+	top: -8px;
+}
+
+code,
+pre,
+kbd,
+tt {
+	max-width: 100%;
+	overflow: auto;
+	margin: 0 0 30px;
+}
+
+code,
+kbd,
+tt {
+	padding: 3px 7px;
+}
+
+pre {
+	padding: 20px 25px;
+	overflow-x: scroll;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin-bottom: 30px;
+}
+
+audio,
+video {
+	margin-bottom: 30px;
+	width: 100%;
+}
